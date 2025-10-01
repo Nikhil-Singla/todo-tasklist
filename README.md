@@ -1,6 +1,6 @@
 # Gamified Todo Tasklist
 
-**Public demo:** [Hosted on Vercel](todo-tasklist-one.vercel.app)
+**Public demo:** [Hosted on Vercel](https://todo-tasklist-one.vercel.app/)
 
 ## Overview
 
@@ -33,17 +33,13 @@ The project serves as a **portfolio showcase**, demonstrating my skills in:
 - **CSS animations** - subtle interactions and visual feedback  
 - **No backend required** - fully client-side application  
 
----
-
 ## Demo
 
 You can explore the functionality and UI interactions of this webapp here:  
 
-todo-tasklist-one.vercel.app
+[todo-tasklist-one.vercel.app](https://todo-tasklist-one.vercel.app/)
 
 > Note: Hosting is limited and primarily intended for showcasing the project.
-
----
 
 ## Getting Started
 
