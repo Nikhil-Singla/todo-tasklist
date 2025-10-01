@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gamified ToDo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<div id="levelUpPopup" class="popup" aria-hidden="true">
+  <div class="popup-content">
+    <h2 id="popupMessage">🎉 Level Up! 🎉</h2>
+    <button id="closePopupBtn">Close</button>
+  </div>
+</div>
+
+<canvas id="confettiCanvas"></canvas>
+
+
+<body>
+
+  <div id="container">
+    
+    <header><h1>TIME FOR TASKS !!</h1></header>
+        
+<main>
+  <aside id="categories">
+    <h2>Categories</h2>
+    <ul id="categoryList"></ul>
+    <input type="text" id="newCategoryInput" placeholder="New Category">
+    <button id="addCategoryBtn">Add Category</button>
+  </aside>
+
+  <section id="tasks-section">
+    <h2 id="categoryTitle">Select or add a category</h2>
+
+    <ul id="taskList"></ul>
+
+    <div id="taskControls">
+      <input type="text" id="newTaskInput" placeholder="New Task">
+      <label><input type="checkbox" id="newTaskDaily"> Daily</label>
+      <button id="addTaskBtn">Add Task</button>
+    </div>
+
+    <div id="progress">
+      <div class="level-line">Level: <span id="levelDisplay">1</span></div>
+
+      <div class="xp-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+        <div id="xpBar" class="xp-fill" style="width: 0%;"></div>
+        <div class="xp-label">
+          <span id="xpDisplay">0</span> / <span id="nextLevelXP">5</span> XP
+        </div>
+      </div>
+    </div>
+
+    <div id="skins">
+      <label for="skinSelector">Skin:</label>
+      <select id="skinSelector">
+        <option value="">Default</option>
+        <option value="dark" disabled>Dark (unlock at lvl 2)</option>
+      </select>
+    </div>
+
+    <div id="controls">
+      <button id="dailyResetBtn">Daily Reset</button>
+      <button id="resetBtn" title="Delete cookies & progress, then reload">Reset Progress</button>
+    </div>
+  </section>
+
+  <aside id="badgeCaseContainer">
+    <h2>Badge Case</h2>
+    <div id="badgeCase"></div>
+  </aside>
+</main>
+
+    </div>
+
+  <div id="overlay" aria-hidden="true"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
