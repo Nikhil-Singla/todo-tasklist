@@ -1,6 +1,6 @@
 # Gamified Todo Tasklist
 
-**Public demo:** \<IN WORK\>
+**Public demo:** todo-tasklist-one.vercel.app
 
 ## Overview
 
@@ -39,7 +39,7 @@ The project serves as a **portfolio showcase**, demonstrating my skills in:
 
 The application is hosted publicly for demo purposes. You can explore the functionality and UI interactions here:  
 
-\<IN WORK\>
+todo-tasklist-one.vercel.app
 
 > Note: Hosting is limited and primarily intended for showcasing the project.
 
