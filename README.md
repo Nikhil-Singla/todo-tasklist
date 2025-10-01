@@ -1,6 +1,6 @@
 # Gamified Todo Tasklist
 
-**Public demo:** todo-tasklist-one.vercel.app
+**Public demo:** [Hosted on Vercel](todo-tasklist-one.vercel.app)
 
 ## Overview
 
@@ -28,16 +28,16 @@ The project serves as a **portfolio showcase**, demonstrating my skills in:
 
 ## Technologies Used
 
-- **HTML5 & CSS3** – layout, styling, and responsive design  
-- **JavaScript (ES6)** – dynamic rendering, event handling, and local storage management  
-- **CSS animations** – subtle interactions and visual feedback  
-- **No backend required** – fully client-side application  
+- **HTML5 & CSS3** - layout, styling, and responsive design  
+- **JavaScript (ES6)** - dynamic rendering, event handling, and local storage management  
+- **CSS animations** - subtle interactions and visual feedback  
+- **No backend required** - fully client-side application  
 
 ---
 
 ## Demo
 
-The application is hosted publicly for demo purposes. You can explore the functionality and UI interactions here:  
+You can explore the functionality and UI interactions of this webapp here:  
 
 todo-tasklist-one.vercel.app
 
